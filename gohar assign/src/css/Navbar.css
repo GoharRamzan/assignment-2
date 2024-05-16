@@ -1,0 +1,45 @@
+
+.mainSection{
+    background-image: url('../assets/main\ image.avif');
+    height: 90vh;
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+.main-section-btn{
+    background-color: rgb(19 68 101);
+    border-radius: 15px;
+    padding: 8px;
+    width: 20%;
+}
+.main-section-btn:hover{
+    background-color: rgb(10, 46, 71);
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    height: 100%;
+    width: 12%;
+    background-color: white;
+    /* border: 1px solid grey; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px grey;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 9vh;
+    margin-top: -20px;
+    
+}
+.boxes-inner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
