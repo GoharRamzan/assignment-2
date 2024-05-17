@@ -4,6 +4,9 @@ import Navbar from './component/Navbar';
 import Living from './component/Living';
 import Slider from './component/Slider';
 import AllProducts from './component/AllProducts';
+import SecondSlider from '../src/component/SecondSlider'
+import Blog from '../src/component/Blog';
+import Footer from './component/Footer'
 function App() {
   return (
    <>
@@ -12,6 +15,9 @@ function App() {
     <Living/>
     <Slider/>
     <AllProducts/>
+    <SecondSlider/>
+    <Blog/>
+    <Footer/>
    </div>
    </>
   );

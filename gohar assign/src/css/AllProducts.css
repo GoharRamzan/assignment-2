@@ -2,6 +2,7 @@
 .main2 {
     width: 100%;
     padding: 2rem 0;
+    height: 70%;
     text-align: center;
 }
 
@@ -10,14 +11,14 @@
     box-shadow: 0 0 10px grey;
     transition: transform 0.3s ease-in-out;
     margin-bottom: 2rem;
-    height: 100%; /* Make card take full height */
+    height: 80%; /* Make card take full height */
 }
 
 .card2:hover {
     transform: scale(1.05);
 }
 
-.card-img-top {
+.card-img-top2 {
     width: 100%;
     height: 200px; /* Fixed height for all images */
     object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */

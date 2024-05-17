@@ -1,6 +1,5 @@
 import '../css/Slider.css'
-import img from '../assets/bed image.webp'
-import img2 from '../assets/lamp image.webp'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { FaArrowRight } from "react-icons/fa6";

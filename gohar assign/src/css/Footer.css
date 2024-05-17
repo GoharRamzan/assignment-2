@@ -1,0 +1,22 @@
+.footer {
+    background-color: rgb(19 68 101);
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    
+    color: white;
+}
+
+.hoverP:hover{
+cursor: pointer;
+color: rgb(12, 60, 214);
+}
+.input-tag{
+    border: 1px solid grey;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
