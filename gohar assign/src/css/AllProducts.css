@@ -1,0 +1,54 @@
+/* AllProducts.css */
+.main2 {
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.card2 {
+    border: none;
+    box-shadow: 0 0 10px grey;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 2rem;
+    height: 100%; /* Make card take full height */
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures image covers the area while maintaining aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.card2:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-4 {
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+}
